@@ -12,4 +12,6 @@ export const COLORS = {
   BORDER: '#333333',
   OVERLAY: 'rgba(0, 0, 0, 0.5)',
   TRANSPARENT: 'transparent',
+
+  GRAY: '#888888',
 }
