@@ -9,6 +9,8 @@ import { styles } from './styles';
 import { USERS } from '../../constants';
 import ProfileHeader from '../../components/profile/ProfileHeader';
 import ProfileInfo from '../../components/profile/ProfileInfo';
+import PostsGrid from '../../components/profile/PostsGrid';
+import BottomNav from '../../components/common/BottomNav';
 
 const ProfileScreen = ({ userId = 'user_001' }) => {
   const user = USERS.find(u => u.id === userId);
@@ -36,9 +38,7 @@ const ProfileScreen = ({ userId = 'user_001' }) => {
         onProfilePicturePress={handleProfilePicturePress}
       />
 
-      <View style={styles.content}>
-        <Text style={styles.testText}>Content tabs and posts will go here</Text>
-      </View>
+      <PostsGrid posts={user.posts} />
     </SafeAreaView>
   );
 };
