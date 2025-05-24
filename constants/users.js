@@ -3,10 +3,9 @@ export const USERS = [
     id: "user_001",
     name: "abd elhalim mohsen",
     username: "@abdElhalim",
-    bio: "أخشى أن يأخذ الله مي نعمة غفلت عن شكرها الحمدلله على كل النعم التي لا يناء بوفيها",
+    bio: "أخشى أن يأخذ الله مني نعمة غفلت عن شكرها الحمدلله على كل النعم التي لا ثناء يوفيها",
     followers: 101,
     following: 15,
-    posts: 5,
     isVerified: false,
     profileImage: require("../assets/images/profiles/user-001.jpg"),
     posts: [
