@@ -11,12 +11,13 @@ import {
   Folder,
   Home,
   PlayCircle,
+  Menu
 } from 'lucide-react-native';
 
 export const ICONS = {
   ARROW_LEFT: ArrowLeft,
   ARROW_RIGHT: ArrowRight,
-  
+  MENU: Menu,
   MESSAGE: MessageCircle,
   
   USERS: Users,
