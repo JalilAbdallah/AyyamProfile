@@ -21,6 +21,18 @@ export const USERS = [
         likes: 742,
         caption: "Good vibes only",
       },
+      {
+        id: "post_003",
+        image: require("../assets/images/posts/post-2.jpg"),
+        likes: 742,
+        caption: "Good vibes only",
+      },
+      {
+        id: "post_004",
+        image: require("../assets/images/posts/post-2.jpg"),
+        likes: 742,
+        caption: "Good vibes only",
+      },
     ],
   },
 ];
