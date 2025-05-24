@@ -7,8 +7,8 @@ import {
   Grid3X3,
   Search,
   Clock,
-  Plus,
-  Folder,
+  PlusSquare,
+  PlaySquare,
   Home,
   PlayCircle,
   Menu
@@ -26,8 +26,8 @@ export const ICONS = {
   
   SEARCH: Search,
   CLOCK: Clock,
-  PLUS: Plus,
-  FOLDER: Folder,
+  PLUS: PlusSquare,
+  PlaySquare: PlaySquare,
   HOME: Home,
   
   PLAY_CIRCLE: PlayCircle,
