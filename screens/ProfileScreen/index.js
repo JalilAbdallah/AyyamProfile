@@ -39,6 +39,8 @@ const ProfileScreen = ({ userId = 'user_001' }) => {
       />
 
       <PostsGrid posts={user.posts} />
+
+      <BottomNav activeTab='play'/>
     </SafeAreaView>
   );
 };
