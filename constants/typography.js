@@ -24,6 +24,7 @@ const FONT_SIZES = {
   SUBTITLE: 16,
   TITLE: 18,
   HEADING: 20,
+  MEDIUM: 18,
   LARGE: 24,
   EXTRA_LARGE: 26,
 };
@@ -37,19 +38,19 @@ export const TYPOGRAPHY = {
   
   statsNumber: {
     fontFamily: FONT_FAMILY.SYSTEM,
-    fontSize: FONT_SIZES.LARGE,
+    fontSize: FONT_SIZES.MEDIUM,
     fontWeight: FONT_WEIGHTS.BOLD,
   },
   
   statsLabel: {
     fontFamily: FONT_FAMILY.SYSTEM_TEXT,
     fontSize: FONT_SIZES.SMALL,
-    fontWeight: FONT_WEIGHTS.REGULAR,
+    fontWeight: FONT_WEIGHTS.BOLD,
   },
   
   buttonText: {
     fontFamily: FONT_FAMILY.SYSTEM_TEXT,
-    fontSize: FONT_SIZES.SUBTITLE,
+    fontSize: FONT_SIZES.SMALL,
     fontWeight: FONT_WEIGHTS.MEDIUM,
   },
   
