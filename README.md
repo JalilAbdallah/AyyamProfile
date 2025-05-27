@@ -3,8 +3,6 @@
 ## Description
 A React Native UI task to clone Ayyam’s profile screen, featuring a tappable profile picture that expands to fill the screen. This project demonstrates how to use React Native Gesture Handler for smooth animations and pure `StyleSheet` code for styling.
 
----
-
 ## Features
 - **Profile Screen Layout**  
   Replicates Ayyam’s profile UI, including header, avatar, user info, and action buttons.
@@ -13,14 +11,10 @@ A React Native UI task to clone Ayyam’s profile screen, featuring a tappable p
 - **Pure `StyleSheet` Styling**  
   All styles are written with React Native’s built-in `StyleSheet` API—no external UI libraries.
 
----
-
 ## Tech Stack
 - **React Native**  
 - **React Native Gesture Handler**
   
----
-
 ## Installation
 
 1. Clone the repository:
